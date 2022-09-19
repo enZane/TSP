@@ -30,7 +30,7 @@ Team Software Process
 </div>
 
 <div class="abs-br m-6">
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
+  <a href="https://github.com/enZane/TSP" target="_blank" alt="GitHub"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
@@ -101,7 +101,6 @@ image: https://www.sportscasting.com/wp-content/uploads/2019/11/Zach-LaVine-of-t
 >
 Un equipo es mas que un grupo de personas que trabajan juntos. el trabajo en equipo involucra un grupo de habilidades
 </div>
-
 <br>
 <br>
 
@@ -209,7 +208,10 @@ Para ser efectivos, los equipos deben ser habilidosos y ser capaces de trabajar 
 </div>
 </v-click>
 
+<v-click>
+
 ### Las personas trabajan más duro cuando se enfrentan a un reto importante y con sentido
+</v-click>
 
 <style>
   h3 {
@@ -226,15 +228,38 @@ Otras habilidades importantes es la capacidad de innovar, que es mas que traer i
 # Construir un equipo efectivo
 
 - Los miembros del equipo establecen metas en común y sus respectivos roles
-- El equipo desarrolla una estrategia previamente aceptada por todos
-- Los miembros definen un proceso en común para su trabajo
-- Todos los miembros participan en producir el plan, y cada miembro conoce su rol en él
-- El equipo negocia el plan con la administración
-- La administración revisa y acepta el plan negociado
-- Los miembros realizan el trabajo de acuerdo al plan, comunicándose seguido y libremente
-- El equipo forma un grupo cohesivo: los miembros cooperan, y todos están comprometidos a alcanzar la meta
-- Los ingenieros conocen su status, son retroalimentados, tienen liderazgo que los mantiene motivados
+<v-click>
 
+- El equipo desarrolla una estrategia previamente aceptada por todos
+</v-click>
+<v-click>
+
+- Los miembros definen un proceso en común para su trabajo
+</v-click>
+<v-click>
+
+- Todos los miembros participan en producir el plan, y cada miembro conoce su rol en él
+</v-click>
+<v-click>
+
+- El equipo negocia el plan con la administración
+</v-click>
+<v-click>
+
+- La administración revisa y acepta el plan negociado
+</v-click>
+<v-click>
+
+- Los miembros realizan el trabajo de acuerdo al plan, comunicándose seguido y libremente
+</v-click>
+<v-click>
+
+- El equipo forma un grupo cohesivo: los miembros cooperan, y todos están comprometidos a alcanzar la meta
+</v-click>
+<v-click>
+
+- Los ingenieros conocen su status, son retroalimentados, tienen liderazgo que los mantiene motivados
+</v-click>
 ---
 
 # ¿Dónde entra el TSP?
@@ -426,6 +451,137 @@ hideInToc: true
 
 - Revisar las actividades de arranque and los planes del proyecto
 - Discutir los riesgos, responsabilidades y planear acciones
+
+---
+layout: two-cols
+---
+
+<template v-slot:default>
+<div class="mt-12 mr-4">
+
+# Lider de equipo
+
+El lider del equipo es el responsable de guiar y motivar a los miembros del equipo, tomando problemas de los clientes y lidiando con managment, esto incluye:
+
+</div>
+</template>
+
+<template v-slot:right>
+<div class="mt-12">
+
+
+- Dirigir el trabajo día a día
+- Proteger los recursos del equipo
+- Resolver problemáticas del equipo
+- Conducir reuniones con el equipo
+- Reportar el trabajo
+- Mantener la disciplina
+</div>
+</template>
+
+<style>
+  h3 {
+    margin-bottom: 1.5rem
+  }
+</style>
+
+---
+
+# Ventajas del TSP
+
+<div class="grid grid-cols-2 gap-24 px-4 mt-12">
+
+Debido al seguimiento intensivo, el proyecto tiene muchísimas más
+posibilidades de éxito.
+
+Detección temprana de riesgos y defectos.
+
+Mejoras en la comunicación del equipo
+
+Se sigue un plan
+
+</div>
+
+<style>
+p {
+  padding: .5rem;
+  height: 100%;
+}
+</style>
+
+---
+layout: quote
+---
+# La sobrecomunicación es lo más importante en el desarrollo de software
+
+<style>
+  h1 {
+    border-left: 5px solid gray;
+    padding-left: 1rem;
+  }
+</style>
+
+---
+
+# Seguir un plan
+
+<img src="/weekTeamData.png" />
+
+
+<v-click >
+
+- El equipo de managment puede ver un incremento en la productividad
+  - En la última semana se tenian 176 tareas-hora que es un promedio de 88 tareas-hora por semana
+  - Mientras esta semana se ven 98 tareas-hora
+
+</v-click>
+---
+hideInToc: true
+---
+
+# Seguir un plan
+
+<img src="/weekTeamData.png" />
+
+
+- Ademas de tener una manera de estimar cuándo se terminará el trabajo
+  - El equipo acumuló 5.3 EV o 1.7667 por semana
+  - A este ritmo el trabajo tomará 100/1.7667 = 56.6 semanas
+  - Pero si se sigue el mismo ritmo de la semana 3
+    - El trabajo llevará 100-5.8/2.1 = 45 semanas restantes
+
+---
+
+# Manejo de calidad
+
+<div class="flex justify-around align-center w-full px-24 text-xl">
+
+La gente hace software
+
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60"><path d="M10 20A10 10 0 1 0 0 10a10 10 0 0 0 10 10zM8.711 4.3l5.7 5.766L8.7 15.711l-1.4-1.422 4.289-4.242-4.3-4.347z"/></svg>
+
+La gente comete errores 
+</div>
+
+<br>
+<br>
+
+Para manejar la calidad:
+
+<div class="flex justify-center align-center">
+
+- Establecer metas de calidad
+- Establecer planes para llegar a esas metas
+- Encontrar medidas para el progreso en esas métricas
+</div>
+
+---
+
+<img src="measure.png" />
+
+---
+
+<img class="mx-auto h-120" src="defectsKLOC.png" />
 
 
 ---
